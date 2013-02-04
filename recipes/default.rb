@@ -6,6 +6,7 @@
 # Copyright 2013, Railsware, Inc.
 
 require_recipe "rvm"
+require_recipe "monit"
 
 
 # local variables
@@ -39,7 +40,7 @@ end
 rvm_ruby rwci_ruby
 rvm_environment rwci_rvm_env
 
-# rvm_gem "rwci" do
+# rvm_gem "rvm" do
 #   ruby_string rwci_rvm_env
 #   version     rwci_version
 #   action      :install
