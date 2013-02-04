@@ -1,0 +1,37 @@
+{
+  "name": "chef-rwci",
+  "description": "RWCI Server Recipe",
+  "long_description": "...",
+  "maintainer": "Dmitry Larkin",
+  "maintainer_email": "dmitry.larkin@gmail.com",
+  "license": "MIT",
+  "platforms": {
+    "ubuntu": ">= 0.0.0",
+    "debian": ">= 0.0.0",
+    "redhat": ">= 0.0.0",
+    "centos": ">= 0.0.0",
+    "fedora": ">= 0.0.0",
+    "amazon": ">= 0.0.0"
+  },
+  "dependencies": {
+    "rvm": ">= 0.0.0"
+  },
+  "recommendations": {
+  },
+  "suggestions": {
+  },
+  "conflicting": {
+  },
+  "providing": {
+  },
+  "replacing": {
+  },
+  "attributes": {
+  },
+  "groupings": {
+  },
+  "recipes": {
+    "rwci": "Install and configure rwci"
+  },
+  "version": "1.0.0"
+}
